@@ -4,3 +4,9 @@ def optional (a,b=2):
 print(optional(2,3))----6
 
 print(optional(2))-----4
+
+def practice(b,a=2,c=1):
+    return a*b*c
+print(practice(2,5))
+
+print(practice(2,3,5))
