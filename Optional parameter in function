@@ -1,1 +1,6 @@
 
+def optional (a,b=2):
+    return a*b
+print(optional(2,3))----6
+
+print(optional(2))-----4
