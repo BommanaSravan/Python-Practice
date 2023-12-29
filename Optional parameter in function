@@ -10,3 +10,19 @@ def practice(b,a=2,c=1):
 print(practice(2,5))
 
 print(practice(2,3,5))
+
+
+# ---pass multiple argumnets
+# non key argumwnta
+def non_key(*argv):
+    for i in argv:
+        print(i)
+non_key(1,2,3,4,5,9)
+
+____--------------------- 
+# key value arguments
+def key_value(**kwargs):
+    for i ,j in kwargs.items():
+        print(i,j)
+        
+key_value(host='123.455',passwo='srav')
