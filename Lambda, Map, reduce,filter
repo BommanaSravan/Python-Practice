@@ -1,0 +1,52 @@
+# lambda functions are inline functions
+
+lambda_function =lambda x : x+5
+
+print(lambda_function(5))
+
+A=lambda x,y : x+y
+print(A(5,6))
+
+# Map , Filter , Reduce
+
+s=lambda a,c: a+' '+ c
+print(s('sra','van'))
+
+# lambda function to find max
+       
+a=lambda x,y: x if x>y  else y
+print(a(8,9))
+
+
+l=[2,3,4,5]
+squ=lambda x:x*x
+l=map(squ,l)
+print(list(l))
+
+-------------------
+l1=[2,3,4,5,6]
+l2=[3,4,5,8,9]
+a=lambda x,y:x+y
+c=map(a,l1,l2)
+
+print(list(c))
+
+
+
+# reduce give only output
+from functools import reduce
+
+l=[2,3,4,56,6]
+print(l)
+re=lambda x,y:x+y
+a=reduce(re,l)
+print(a)
+
+
+# filter 
+
+l=[1,23,4,5,6,7,8,9]
+
+a=lambda x: x%2==0
+b=filter(a,l)
+print(list(b))
