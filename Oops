@@ -1,0 +1,27 @@
+# -- Base class or parent class
+
+class job():
+    def __init__(self,title,salary,location):
+        self.title=title
+        self.salary=salary
+        self.location=location
+    def job_title(self):
+        print('Name of job is',self.title)
+    def job_salary(self):
+        print('job salary',self.salary)
+    def job_location(self):
+        print('Name of location is',self.location)
+        
+# child clasas
+
+class update_new(job):
+    def job_location(self):
+        print('Name of location is','Mumbai')
+
+
+job1=job('Analyst','70000','Hyderabad')
+job1.job_location()
+
+job2=update_new('Dev','80000','mumbai')
+job2.job_title()
+job2.job_location()
