@@ -1,0 +1,14 @@
+class employee():
+    def __init__(self,name,salary) -> None:
+        self.emp_name=name
+        self.emp_Salary=salary
+        
+    def emp_info(self):
+        print(  self.emp_name , self.emp_Salary)
+    
+emp1=employee('sravan',95000)
+# emp2=employee('reddy',90000)
+
+# print(list(emp1),list(emp2))
+
+emp1.emp_info()
