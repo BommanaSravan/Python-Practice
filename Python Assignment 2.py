@@ -1,28 +1,28 @@
-# # 1. Write a Python program to convert kilometers to miles?
+# 1. Write a Python program to convert kilometers to miles?
 
-# # 1 mile=1.609 Kms
+# 1 mile=1.609 Kms
 
-# m=int(input('Enter the distace in Kms'))
+m=int(input('Enter the distace in Kms'))
 
-# print(m/1.609)
-
-
-# # 2.Write a Python program to convert Celsius to Fahrenheit?
+print(m/1.609)
 
 
-# c=int(input('Enter the distace in celsius'))
+# 2.Write a Python program to convert Celsius to Fahrenheit?
 
-# print((c*(9/5))+32)
 
-# # # 3. Write a Python program to display calendar?
+c=int(input('Enter the distace in celsius'))
 
-# import calendar
+print((c*(9/5))+32)
 
-# print(calendar.month(2023, 12))
+# # 3. Write a Python program to display calendar?
 
-# print(calendar.calendar(2023))
+import calendar
 
-# # 4. Write a Python program to solve quadratic equation?
+print(calendar.month(2023, 12))
+
+print(calendar.calendar(2023))
+
+# 4. Write a Python program to solve quadratic equation?
 
 import math
 
